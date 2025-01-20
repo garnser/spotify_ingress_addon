@@ -1,7 +1,7 @@
 {
   "name": "Spotify Web Playback Ingress",
   "version": "1.0.0",
-  "slug": "spotify_web_playback_ingress",
+  "slug": "spotify_ingress_addon",
   "description": "Backend for Spotify Web Playback SDK",
   "startup": "services",
   "ingress": true,
@@ -21,4 +21,3 @@
     "SPOTIFY_REDIRECT_URI": "$SPOTIFY_REDIRECT_URI"
   }
 }
-
