@@ -1,0 +1,24 @@
+{
+  "name": "Spotify Web Playback Ingress",
+  "version": "1.0.0",
+  "slug": "spotify_web_playback_ingress",
+  "description": "Backend for Spotify Web Playback SDK",
+  "startup": "services",
+  "ingress": true,
+  "ingress_port": 5000,
+  "ports": {
+    "5000/tcp": null
+  },
+  "map": ["config"],
+  "schema": {
+    "SPOTIFY_CLIENT_ID": "3fbcd82df4e14d5d92c57d816861f158",
+    "SPOTIFY_CLIENT_SECRET": "8a63f41d2acb4b46bf354ec0ea473e75",
+    "SPOTIFY_REDIRECT_URI": "http://localhost:3000/auth/callback"
+  },
+  "environment": {
+    "SPOTIFY_CLIENT_ID": "$SPOTIFY_CLIENT_ID",
+    "SPOTIFY_CLIENT_SECRET": "$SPOTIFY_CLIENT_SECRET",
+    "SPOTIFY_REDIRECT_URI": "$SPOTIFY_REDIRECT_URI"
+  }
+}
+
