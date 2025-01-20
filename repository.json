@@ -1,0 +1,7 @@
+{
+  "name": "Spotify Ingress Addon",
+  "url": "https://github.com/garnser/spotify_ingress_addon",
+  "maintainer": "Jonathan Petersson",
+  "description": "Spotify Web Player ingress",
+  "version": "1.0.0"
+}
